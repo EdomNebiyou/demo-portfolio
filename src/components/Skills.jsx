@@ -10,6 +10,9 @@ const skills = [
   { name: "Node.js", icon: "🟢" },
   { name: "MySQL", icon: "🐬" },
   { name: "MongoDB", icon: "🍃" },
+  { name: "Redux", icon: "🔄" },
+  { name: "Next.js", icon: "⏭️" },
+  { name: "TypeScript", icon: "🟦" },
 ];
 
 export default function Skills() {
@@ -26,7 +29,7 @@ export default function Skills() {
       <section id="skills" className="py-16">
         <div className="container mx-auto px-4">
           <motion.h2
-            className="text-3xl text-amber-700 font-bold text-center"
+            className="text-5xl text-blue-700 font-bold text-center"
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
