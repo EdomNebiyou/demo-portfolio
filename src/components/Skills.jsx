@@ -4,15 +4,10 @@ const skills = [
   { name: "React", icon: "⚛️" },
   { name: "Tailwind CSS", icon: "🎨" },
   { name: "JavaScript", icon: "📜" },
-  { name: "Vite", icon: "⚡" },
-  { name: "HTML", icon: "🖥️" },
-  { name: "CSS", icon: "🎨" },
   { name: "Node.js", icon: "🟢" },
   { name: "MySQL", icon: "🐬" },
   { name: "MongoDB", icon: "🍃" },
-  { name: "Redux", icon: "🔄" },
-  { name: "Next.js", icon: "⏭️" },
-  { name: "TypeScript", icon: "🟦" },
+  { name: "Redux", icon: "🔄" }
 ];
 
 export default function Skills() {
